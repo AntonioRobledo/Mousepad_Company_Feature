@@ -1,0 +1,73 @@
+body {
+    background-color: #FFF2D7;
+}
+
+#MousepadLogo {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#search-bar {
+    padding-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* 1/8" or 0.125 = 13 pixels */
+
+#bleed {
+    border: 13px solid lightblue; /* Fixed border around the image */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+#safety {
+    border: 13px solid lightcoral; /* Fixed border around the image */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+#border {
+    border: 13px solid lightyellow; /* Fixed border around the image */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+#search-bar {
+    padding-bottom: 20px; 
+}
+
+
+#border img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* Removes extra space under the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    border: 2px solid #ccc; /* Fixed border around the image */
+    padding: 60px; /* Padding for better visual appearance */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+/* h2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+label { 
+    display: flex; 
+    justify-content: center;
+}
+
+#submitButton {
+    display: flex; 
+    justify-content: center;
+} */
+
+
+
+
+/* Small Container: (18" x 15") */
+/* Large Container: (36" x 18") */
+/* XXL Container: (48" x 24") */
