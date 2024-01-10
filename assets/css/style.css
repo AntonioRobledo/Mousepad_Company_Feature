@@ -49,21 +49,12 @@ button {
     box-sizing: border-box; /* Include padding in the total width/height */
 }
 
-/* h2 {
+h2,
+form {
     display: flex;
     justify-content: center;
-    
 }
 
-label { 
-    display: flex; 
-    justify-content: center;
-}
-
-#submitButton {
-    display: flex; 
-    justify-content: center;
-} */
 
 
 
