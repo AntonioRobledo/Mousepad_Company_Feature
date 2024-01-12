@@ -11,6 +11,9 @@ body {
 
 #search-bar {
     padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
@@ -19,34 +22,35 @@ button {
 
 /* 1/8" or 0.125 = 13 pixels */
 
+.responsive-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    max-height: auto;
+}
+
 #bleed {
-    border: 13px solid lightblue; /* Fixed border around the image */
-    box-sizing: border-box; /* Include padding in the total width/height */
+    border: 13px solid lightblue; /* Fixes border around the image */
+    box-sizing: border-box; /* Includes padding in the total width/height */
 }
 
 #safety {
-    border: 13px solid lightcoral; /* Fixed border around the image */
-    box-sizing: border-box; /* Include padding in the total width/height */
+    border: 13px solid lightcoral; 
+    box-sizing: border-box; 
 }
 
 #border {
-    border: 13px solid lightyellow; /* Fixed border around the image */
-    box-sizing: border-box; /* Include padding in the total width/height */
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
-
-#search-bar {
-    padding-bottom: 20px; 
-}
-
 
 #border img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* Removes extra space under the image */
-    margin: 0 auto; /* Centers the image horizontally */
-    border: 2px solid #ccc; /* Fixed border around the image */
-    padding: 60px; /* Padding for better visual appearance */
-    box-sizing: border-box; /* Include padding in the total width/height */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 h2,
@@ -54,10 +58,6 @@ form {
     display: flex;
     justify-content: center;
 }
-
-
-
-
 
 /* Small Container: (18" x 15") */
 /* Large Container: (36" x 18") */
